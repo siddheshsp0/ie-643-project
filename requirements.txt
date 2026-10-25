@@ -1,0 +1,40 @@
+# Tested with Python 3.13.5 on Linux with an NVIDIA GPU (CUDA 12.4).
+# Install PyTorch for your CUDA version first, for example:
+#   pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
+# then:
+#   pip install -r requirements.txt
+#   pip install --no-deps pyrender==0.1.45     # pyrender pins PyOpenGL 3.1.0, which fails with EGL on Python 3.13
+torch==2.6.0
+torchvision==0.21.0
+
+# diffusion, text encoder, audio encoder
+diffusers==0.40.0
+transformers==5.17.0
+accelerate==1.15.0
+safetensors==0.8.0
+huggingface_hub==1.33.0
+laion_clap==1.1.7
+librosa==0.11.0
+soundfile==0.14.0
+numpy==1.26.4          # laion_clap requires numpy < 2
+
+# images, plots
+pillow==12.3.0
+opencv-python==5.0.0.93
+matplotlib==3.11.2
+scipy==1.17.1
+tqdm==4.70.1
+
+# look-around extension: depth-mesh rendering (pyrender itself is installed with --no-deps, see above)
+trimesh==5.2.0
+PyOpenGL==3.1.9
+pyglet==2.1.19
+freetype-py==2.5.1
+imageio==2.37.4
+networkx==3.6.1
+six==1.17.0
+icecream==2.2.0        # imported by MegaScenes' util_3dphoto.py
+
+# evaluation
+lpips==0.1.4
+torchmetrics==1.9.0

@@ -1,0 +1,90 @@
+# Added by us
+# datasets (see data/README.md) and the CLAP feature cache
+/data/*
+!/data/README.md
+# pre-trained weights (scripts/download_weights.py)
+/models/stable-diffusion-inpainting/
+/models/clip-vit-large-patch14/
+/models/depth-anything-v2/
+# intermediate checkpoints (runs/s4_v1/last.pt is the trained model and is kept)
+/runs/*/step_*.pt
+/runs/smoke*/*.pt
+# bulky generated images (summaries, metrics and contact sheets are kept)
+/outputs/inpainting_eval/images/
+/outputs/inpainting_eval/gt/
+/outputs/inpainting_eval/mask/
+/outputs/novel_view_eval/*/scenes/
+/outputs/samples/*/
+*.npy
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables and secrets
+.env
+.env.*
+.secrets
+*.pem
+
+# Testing and coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+
+# Operating System files
+.DS_Store
+Thumbs.db
+

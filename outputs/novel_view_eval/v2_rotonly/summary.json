@@ -1,0 +1,147 @@
+{
+  "per_audio": {
+    "cat": {
+      "target_class": "cat_meowing",
+      "top1_audio": 0.5,
+      "top1_no_audio": 0.03125,
+      "p_target_audio": 0.47110625,
+      "p_target_no_audio": 0.048140625,
+      "win_rate": 0.75,
+      "by_yaw": {
+        "+15": {
+          "top1_audio": 0.625,
+          "top1_no_audio": 0.0625
+        },
+        "-15": {
+          "top1_audio": 0.375,
+          "top1_no_audio": 0.0
+        }
+      }
+    },
+    "dog": {
+      "target_class": "dog_barking",
+      "top1_audio": 0.75,
+      "top1_no_audio": 0.0625,
+      "p_target_audio": 0.7039,
+      "p_target_no_audio": 0.070471875,
+      "win_rate": 0.9375,
+      "by_yaw": {
+        "+15": {
+          "top1_audio": 0.75,
+          "top1_no_audio": 0.125
+        },
+        "-15": {
+          "top1_audio": 0.75,
+          "top1_no_audio": 0.0
+        }
+      }
+    },
+    "baby": {
+      "target_class": "baby_laughter",
+      "top1_audio": 0.75,
+      "top1_no_audio": 0.0625,
+      "p_target_audio": 0.6991375,
+      "p_target_no_audio": 0.046190625,
+      "win_rate": 0.9375,
+      "by_yaw": {
+        "+15": {
+          "top1_audio": 0.6875,
+          "top1_no_audio": 0.0625
+        },
+        "-15": {
+          "top1_audio": 0.8125,
+          "top1_no_audio": 0.0625
+        }
+      }
+    },
+    "guitar": {
+      "target_class": "playing_acoustic_guitar",
+      "top1_audio": 0.5625,
+      "top1_no_audio": 0.0,
+      "p_target_audio": 0.484278125,
+      "p_target_no_audio": 0.015553125000000001,
+      "win_rate": 0.96875,
+      "by_yaw": {
+        "+15": {
+          "top1_audio": 0.5625,
+          "top1_no_audio": 0.0
+        },
+        "-15": {
+          "top1_audio": 0.5625,
+          "top1_no_audio": 0.0
+        }
+      }
+    }
+  },
+  "prob_matrix": {
+    "none": {
+      "cat": 0.048140625,
+      "dog": 0.070471875,
+      "baby": 0.046190625,
+      "guitar": 0.015553125000000001
+    },
+    "cat": {
+      "cat": 0.47110625,
+      "dog": 0.084009375,
+      "baby": 0.013546875000000002,
+      "guitar": 0.03466875
+    },
+    "dog": {
+      "cat": 0.032259375,
+      "dog": 0.7039,
+      "baby": 0.013025,
+      "guitar": 0.007759375
+    },
+    "baby": {
+      "cat": 0.013806249999999999,
+      "dog": 0.022971875,
+      "baby": 0.6991375,
+      "guitar": 0.00896875
+    },
+    "guitar": {
+      "cat": 0.008721875,
+      "dog": 0.013759375,
+      "baby": 0.00314375,
+      "guitar": 0.484278125
+    }
+  },
+  "per_scene": {
+    "desk": {
+      "top1_audio": 0.9375,
+      "top1_no_audio": 0.0625
+    },
+    "doorway_dog": {
+      "top1_audio": 0.4375,
+      "top1_no_audio": 0.0625
+    },
+    "fireplace_room": {
+      "top1_audio": 0.6875,
+      "top1_no_audio": 0.0625
+    },
+    "piano_room": {
+      "top1_audio": 0.3125,
+      "top1_no_audio": 0.0
+    },
+    "bathroom_door": {
+      "top1_audio": 0.9375,
+      "top1_no_audio": 0.0
+    },
+    "bookshelf_room": {
+      "top1_audio": 0.5,
+      "top1_no_audio": 0.0625
+    },
+    "country_path": {
+      "top1_audio": 0.875,
+      "top1_no_audio": 0.0625
+    },
+    "bus_street": {
+      "top1_audio": 0.4375,
+      "top1_no_audio": 0.0
+    }
+  },
+  "overall": {
+    "top1_audio": 0.640625,
+    "top1_no_audio": 0.0390625,
+    "win_rate": 0.8984375
+  }
+}

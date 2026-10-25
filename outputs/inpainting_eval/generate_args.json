@@ -1,0 +1,11 @@
+{
+  "out": "outputs/inpainting_eval",
+  "ckpt": "runs/s4_v1/last.pt",
+  "max_clips": null,
+  "resolution": 512,
+  "dilate_px": 8,
+  "steps": 30,
+  "guidance_scale": 7.5,
+  "batch_size": 8,
+  "sd_path": "models/stable-diffusion-inpainting"
+}

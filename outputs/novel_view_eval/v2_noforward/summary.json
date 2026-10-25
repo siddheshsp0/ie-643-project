@@ -1,0 +1,131 @@
+{
+  "per_audio": {
+    "cat": {
+      "target_class": "cat_meowing",
+      "top1_audio": 0.5416666666666666,
+      "top1_no_audio": 0.041666666666666664,
+      "p_target_audio": 0.49624583333333333,
+      "p_target_no_audio": 0.04265,
+      "win_rate": 0.875,
+      "by_yaw": {
+        "-15": {
+          "top1_audio": 0.5416666666666666,
+          "top1_no_audio": 0.041666666666666664
+        }
+      }
+    },
+    "dog": {
+      "target_class": "dog_barking",
+      "top1_audio": 0.8333333333333334,
+      "top1_no_audio": 0.08333333333333333,
+      "p_target_audio": 0.7377500000000001,
+      "p_target_no_audio": 0.11818333333333332,
+      "win_rate": 0.9166666666666666,
+      "by_yaw": {
+        "-15": {
+          "top1_audio": 0.8333333333333334,
+          "top1_no_audio": 0.08333333333333333
+        }
+      }
+    },
+    "baby": {
+      "target_class": "baby_laughter",
+      "top1_audio": 0.7916666666666666,
+      "top1_no_audio": 0.0,
+      "p_target_audio": 0.7221708333333333,
+      "p_target_no_audio": 0.029895833333333333,
+      "win_rate": 1.0,
+      "by_yaw": {
+        "-15": {
+          "top1_audio": 0.7916666666666666,
+          "top1_no_audio": 0.0
+        }
+      }
+    },
+    "guitar": {
+      "target_class": "playing_acoustic_guitar",
+      "top1_audio": 0.4583333333333333,
+      "top1_no_audio": 0.0,
+      "p_target_audio": 0.40990833333333326,
+      "p_target_no_audio": 0.008525,
+      "win_rate": 0.9166666666666666,
+      "by_yaw": {
+        "-15": {
+          "top1_audio": 0.4583333333333333,
+          "top1_no_audio": 0.0
+        }
+      }
+    }
+  },
+  "prob_matrix": {
+    "none": {
+      "cat": 0.04265,
+      "dog": 0.11818333333333332,
+      "baby": 0.029895833333333333,
+      "guitar": 0.008525
+    },
+    "cat": {
+      "cat": 0.49624583333333333,
+      "dog": 0.11749583333333334,
+      "baby": 0.0706625,
+      "guitar": 0.004641666666666666
+    },
+    "dog": {
+      "cat": 0.09815,
+      "dog": 0.7377500000000001,
+      "baby": 0.005129166666666667,
+      "guitar": 0.0007333333333333332
+    },
+    "baby": {
+      "cat": 0.017075,
+      "dog": 0.01746666666666667,
+      "baby": 0.7221708333333333,
+      "guitar": 0.0009916666666666667
+    },
+    "guitar": {
+      "cat": 0.010920833333333333,
+      "dog": 0.042604166666666665,
+      "baby": 0.025241666666666666,
+      "guitar": 0.40990833333333326
+    }
+  },
+  "per_scene": {
+    "desk": {
+      "top1_audio": 0.75,
+      "top1_no_audio": 0.0
+    },
+    "doorway_dog": {
+      "top1_audio": 0.6666666666666666,
+      "top1_no_audio": 0.16666666666666666
+    },
+    "fireplace_room": {
+      "top1_audio": 0.75,
+      "top1_no_audio": 0.0
+    },
+    "piano_room": {
+      "top1_audio": 0.4166666666666667,
+      "top1_no_audio": 0.0
+    },
+    "bathroom_door": {
+      "top1_audio": 0.5833333333333334,
+      "top1_no_audio": 0.0
+    },
+    "bookshelf_room": {
+      "top1_audio": 0.75,
+      "top1_no_audio": 0.08333333333333333
+    },
+    "country_path": {
+      "top1_audio": 0.9166666666666666,
+      "top1_no_audio": 0.0
+    },
+    "bus_street": {
+      "top1_audio": 0.4166666666666667,
+      "top1_no_audio": 0.0
+    }
+  },
+  "overall": {
+    "top1_audio": 0.65625,
+    "top1_no_audio": 0.03125,
+    "win_rate": 0.9270833333333333
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "out": "outputs/novel_view_eval/v2_yaw20",
+  "ckpt": "runs/s4_v1/last.pt",
+  "yaws": [
+    20.0,
+    -20.0
+  ],
+  "pose": "orbit",
+  "focal_256": 80.0,
+  "seeds": [
+    0,
+    1
+  ],
+  "resolution": 512,
+  "dilate_px": 8,
+  "steps": 50,
+  "guidance_scale": 7.5,
+  "scenes": [
+    [
+      "desk",
+      "typing_on_computer_keyboard",
+      "-6AOy8GAMpM"
+    ],
+    [
+      "doorway_dog",
+      "dog_barking",
+      "-AWooU1PDiM"
+    ],
+    [
+      "fireplace_room",
+      "playing_violin",
+      "8TZcN7vYW8E"
+    ],
+    [
+      "piano_room",
+      "playing_violin",
+      "4Cc4hviIWts"
+    ],
+    [
+      "bathroom_door",
+      "baby_laughter",
+      "iXKrKQ-JZVo"
+    ],
+    [
+      "bookshelf_room",
+      "baby_laughter",
+      "mINZOofPPdA"
+    ],
+    [
+      "country_path",
+      "horse_clip-clop",
+      "6GD0dWvfDc4"
+    ],
+    [
+      "bus_street",
+      "driving_buses",
+      "-II-7qJxKPc"
+    ]
+  ],
+  "audios": {
+    "cat": [
+      "cat_meowing",
+      "0UN02RkbG_U"
+    ],
+    "dog": [
+      "dog_barking",
+      "-AWooU1PDiM"
+    ],
+    "baby": [
+      "baby_laughter",
+      "MrIfjRInMLU"
+    ],
+    "guitar": [
+      "playing_acoustic_guitar",
+      "-3L1rzGAD_o"
+    ]
+  }
+}
