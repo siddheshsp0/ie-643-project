@@ -1,0 +1,1041 @@
+{
+  "summary": {
+    "mono": {
+      "n": 56,
+      "found": 0.8571428571428571,
+      "hit": 0.39285714285714285,
+      "hit_left": 0.75,
+      "hit_right": 0.03571428571428571
+    },
+    "spatial": {
+      "n": 56,
+      "found": 0.9285714285714286,
+      "hit": 0.8035714285714286,
+      "hit_left": 0.8214285714285714,
+      "hit_right": 0.7857142857142857
+    },
+    "trained": {
+      "n": 56,
+      "found": 0.9285714285714286,
+      "hit": 0.6964285714285714,
+      "hit_left": 0.6428571428571429,
+      "hit_right": 0.75
+    }
+  },
+  "rows": {
+    "mono": [
+      {
+        "tag": "bathroom_door_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bathroom_door_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bathroom_door_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "bathroom_door_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "bookshelf_room_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "bookshelf_room_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "bookshelf_room_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bookshelf_room_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bus_street_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "bus_street_cat_right",
+        "side": "right",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "bus_street_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bus_street_guitar_left",
+        "side": "left",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "classroom_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "classroom_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "classroom_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "classroom_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "country_path_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "country_path_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "country_path_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "country_path_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "desk_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "desk_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "desk_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "desk_guitar_right",
+        "side": "right",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "doorway_dog_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "doorway_dog_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "doorway_dog_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "doorway_dog_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "fireplace_room_baby_left",
+        "side": "left",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "fireplace_room_cat_left",
+        "side": "left",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "fireplace_room_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "fireplace_room_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "forest_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "forest_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "forest_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "forest_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "piano_room_baby_right",
+        "side": "right",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "piano_room_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "piano_room_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "piano_room_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "restaurant_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "restaurant_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "restaurant_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "restaurant_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "sofa_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "sofa_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "sofa_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "sofa_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "store_baby_right",
+        "side": "right",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "store_cat_right",
+        "side": "right",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "store_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "store_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "village_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "village_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "village_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "village_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      }
+    ],
+    "spatial": [
+      {
+        "tag": "bathroom_door_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bathroom_door_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bathroom_door_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bathroom_door_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bookshelf_room_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bookshelf_room_cat_right",
+        "side": "right",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "bookshelf_room_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "bookshelf_room_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bus_street_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bus_street_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "bus_street_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bus_street_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "classroom_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "classroom_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "classroom_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "classroom_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "country_path_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "country_path_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "country_path_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "country_path_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "desk_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "desk_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "desk_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "desk_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "doorway_dog_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "doorway_dog_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "doorway_dog_dog_left",
+        "side": "left",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "doorway_dog_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "fireplace_room_baby_left",
+        "side": "left",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "fireplace_room_cat_left",
+        "side": "left",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "fireplace_room_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "fireplace_room_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "forest_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "forest_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "forest_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "forest_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "piano_room_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "piano_room_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "piano_room_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "piano_room_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "restaurant_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "restaurant_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "restaurant_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "restaurant_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "sofa_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "sofa_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "sofa_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "sofa_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "store_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "store_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "store_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "store_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "village_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "village_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "village_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "village_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      }
+    ],
+    "trained": [
+      {
+        "tag": "bathroom_door_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "bathroom_door_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bathroom_door_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "bathroom_door_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bookshelf_room_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bookshelf_room_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "bookshelf_room_dog_left",
+        "side": "left",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "bookshelf_room_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bus_street_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bus_street_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bus_street_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "bus_street_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "classroom_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "classroom_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "classroom_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "classroom_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "country_path_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "country_path_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "country_path_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "country_path_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "desk_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "desk_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "desk_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "desk_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "doorway_dog_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "doorway_dog_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "doorway_dog_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "doorway_dog_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "fireplace_room_baby_left",
+        "side": "left",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "fireplace_room_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "fireplace_room_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "fireplace_room_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "forest_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "forest_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "forest_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "forest_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "piano_room_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "piano_room_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "piano_room_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "piano_room_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "restaurant_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "restaurant_cat_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "restaurant_dog_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "restaurant_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "sofa_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "sofa_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "sofa_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "sofa_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": false
+      },
+      {
+        "tag": "store_baby_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "store_cat_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "store_dog_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "store_guitar_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "village_baby_left",
+        "side": "left",
+        "found": true,
+        "hit": true
+      },
+      {
+        "tag": "village_cat_left",
+        "side": "left",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "village_dog_right",
+        "side": "right",
+        "found": false,
+        "hit": false
+      },
+      {
+        "tag": "village_guitar_right",
+        "side": "right",
+        "found": true,
+        "hit": true
+      }
+    ]
+  }
+}

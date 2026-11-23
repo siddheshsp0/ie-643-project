@@ -47,9 +47,11 @@ def warp_view(src, depth, extrinsic, focal_256=MEGASCENES_FOCAL_256, prune="stre
 
 
 class NovelViewAudioInpainter:
-    def __init__(self, adapter_ckpt, sd_path=DEFAULT_SD_PATH, da_ckpt=DEFAULT_DA_CKPT, da_encoder="vitl", device=None):
+    def __init__(self, adapter_ckpt, sd_path=DEFAULT_SD_PATH, da_ckpt=DEFAULT_DA_CKPT, da_encoder="vitl", device=None,
+                 load_depth=True):
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-        self.estimator = DepthAnythingV2Estimator(da_ckpt, da_encoder, device=self.device)
+        self.sd_path = sd_path
+        self.estimator = DepthAnythingV2Estimator(da_ckpt, da_encoder, device=self.device) if load_depth else None
 
         ckpt = torch.load(adapter_ckpt, map_location=self.device)
         print(f"checkpoint {adapter_ckpt} (step {ckpt['step']})  layers {ckpt['layer_names']}")

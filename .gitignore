@@ -3,9 +3,9 @@
 /data/*
 !/data/README.md
 # pre-trained weights (scripts/download_weights.py)
-/models/stable-diffusion-inpainting/
-/models/clip-vit-large-patch14/
-/models/depth-anything-v2/
+/models/stable-diffusion-inpainting
+/models/clip-vit-large-patch14
+/models/depth-anything-v2
 # intermediate checkpoints (runs/s4_v1/last.pt is the trained model and is kept)
 /runs/*/step_*.pt
 /runs/smoke*/*.pt
@@ -15,6 +15,19 @@
 /outputs/inpainting_eval/mask/
 /outputs/novel_view_eval/*/scenes/
 /outputs/samples/*/
+# spatial audio: generated images (summaries, metrics, grids and figures are kept)
+/outputs/spatial_eval*/images/
+/outputs/spatial_eval*/gt/
+/outputs/spatial_eval*/hole/
+/outputs/spatial_lookaround/mono/
+/outputs/spatial_lookaround/spatial/
+/outputs/spatial_lookaround/trained/
+/outputs/spatial/*
+!/outputs/spatial/*_overview.png
+!/outputs/spatial/*_plan.json
+# location model: smoke test and the first run that did not learn (runs/loc_v1.log is kept)
+/runs/loc_smoke/
+/runs/loc_v1/
 *.npy
 
 # Byte-compiled / optimized / DLL files

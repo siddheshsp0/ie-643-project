@@ -1,0 +1,1 @@
+{"scene": "bathroom_door", "sound": "cat", "side": "left", "az": 65.0, "heard_as": "cat_meowing", "yaw_spatial": 28.49664021049042, "est_az": 61.49125700240692, "truth_uv": {"spatial": [61.758866610244866, 256.0], "mono": [43.960594490814316, 256.0]}, "class": "cat_meowing"}

@@ -1,0 +1,1 @@
+{"scene": "bookshelf_room", "sound": "dog", "side": "left", "az": 65.0, "heard_as": "dog_barking", "yaw_spatial": 30.0, "est_az": 64.1612173749972, "truth_uv": {"spatial": [64.067867224178, 256.0], "mono": [43.960594490814316, 256.0]}, "class": "dog_barking"}

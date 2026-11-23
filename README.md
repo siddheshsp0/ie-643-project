@@ -15,7 +15,11 @@ did not see.
    MegaScenes-style camera move (about 15–20°) reveal regions the photo never saw; the same audio model
    fills only those regions. Nothing new is trained.
 
-Spatial-audio (FOA) guided missing-view synthesis is our plan for the Novelty Assessment.
+3. **Spatial audio (Novelty Assessment).** With first-order ambisonics (4-channel FOA) the sound also says
+   *where* the source is and how far away: the camera turns toward it and the object is drawn at its
+   direction, at a size set by its distance, behind nearer surfaces. A training-free version (geometry +
+   masks) and a trained one (a heatmap input channel + LoRA in the U-Net). See
+   [`docs/spatial_audio.md`](docs/spatial_audio.md).
 
 <p align="center"><img src="outputs/demo_dog_overview.png" width="100%"><br>
 <em>S4 test clip, dog-barking audio: masked input, original, two seeds with audio (dogs), two seeds without audio.</em></p>
@@ -154,10 +158,36 @@ python scripts/eval_novel_view.py report                 # -> outputs/novel_view
 python scripts/compare_pose_study.py v1 v2_noforward v2_rotonly v2_focal200 v2_yaw20
 ```
 
+**Spatial audio** (FOA in ACN/SN3D order; `--fuma` for FuMa files). Without a real recording, place any mono
+sound at a direction and distance first:
+
+```bash
+# a mono sound 65 deg to the left, 2.5 m away -> 4-channel FOA in a virtual room
+python scripts/make_foa.py --wav dog.wav --az 65 --distance 2.5 --out outputs/spatial/dog_left_foa.wav
+
+# training-free: turn toward the sound, draw it at its direction; --compare adds mono and no-audio results
+python scripts/spatial_audio_inpaint.py --image examples/ecohubsofa.jpeg --foa outputs/spatial/dog_left_foa.wav \
+    --compare --out outputs/spatial/sofa_dog_left
+# add the trained location model
+python scripts/spatial_audio_inpaint.py --image examples/ecohubsofa.jpeg --foa outputs/spatial/dog_left_foa.wav \
+    --location-ckpt runs/loc_v2b_multiscale/last.pt --out outputs/spatial/sofa_dog_left
+
+# train the location model (10k steps, about 3.3 h on one A5000; the trained model is runs/loc_v2b_multiscale)
+python scripts/train_location.py --run-name loc_v2b_multiscale --multiscale
+# evaluate in place (173 S4 test clips) and around the corner (56 cases), then the paired statistics
+python scripts/eval_spatial.py generate --conditions none mono free steer && python scripts/eval_spatial.py report
+python scripts/eval_spatial.py generate --conditions trained --out outputs/spatial_eval_trained_v2b
+python scripts/eval_spatial.py report --out outputs/spatial_eval_trained_v2b
+python scripts/eval_spatial_lookaround.py generate --location-ckpt runs/loc_v2b_multiscale/last.pt
+python scripts/eval_spatial_lookaround.py report
+python scripts/spatial_stats.py
+```
+
 **Tests**:
 
 ```bash
-python -m unittest tests.test_audio_adapter tests.test_megascenes_warp -v
+python -m unittest tests.test_audio_adapter tests.test_megascenes_warp tests.test_spatial_audio \
+    tests.test_location_unet -v
 ```
 
 ## Documentation
@@ -167,7 +197,10 @@ python -m unittest tests.test_audio_adapter tests.test_megascenes_warp -v
 - [`docs/novel_view_pipeline.md`](docs/novel_view_pipeline.md): the look-around pipeline, what comes from
   MegaScenes and where we deviate (the stretch hole rule).
 - [`docs/dataset_survey.md`](docs/dataset_survey.md): the datasets we considered.
-- [`docs/submission/`](docs/submission/): project report and presentation slides.
+- [`docs/spatial_audio.md`](docs/spatial_audio.md): the novelty, spatial audio (FOA analysis, training-free and
+  trained placement, both evaluations with paired statistics).
+- [`docs/submission/`](docs/submission/): intensive-assessment report and slides; novelty-assessment report and
+  poster.
 
 ## Credits and licences
 

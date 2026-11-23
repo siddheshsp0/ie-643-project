@@ -1,0 +1,1 @@
+{"scene": "bus_street", "sound": "guitar", "side": "left", "az": 65.0, "heard_as": "playing_acoustic_guitar", "yaw_spatial": 29.368132123647477, "est_az": 62.36274891556398, "truth_uv": {"spatial": [63.122746732650796, 256.0], "mono": [43.960594490814316, 256.0]}, "class": "playing_acoustic_guitar"}

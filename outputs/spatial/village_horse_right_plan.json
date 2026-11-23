@@ -1,0 +1,23 @@
+{
+  "az_deg": -72.77897815169739,
+  "el_deg": -3.36882690422148,
+  "diffuseness": 0.6515404557123885,
+  "distance_m": 2.7347932993326873,
+  "yaw_deg": -30.0,
+  "u": 473.13247685843737,
+  "v": 264.5600732289362,
+  "z": 1.5019062216979628,
+  "box": [
+    245.76,
+    162.16007322893617,
+    512.0,
+    366.96007322893615
+  ],
+  "visible": true,
+  "occluded": false,
+  "source_class": "dog_barking",
+  "clap_prob": 0.7716293334960938,
+  "image": "/home/24b4502/ie643_project/demo/images/village.png",
+  "foa": "outputs/spatial/horse_right_foa.wav",
+  "placed": null
+}

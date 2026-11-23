@@ -1,0 +1,1 @@
+{"scene": "sofa", "sound": "cat", "side": "right", "az": -65.0, "heard_as": "cat_meowing", "yaw_spatial": -30.0, "est_az": -66.68226429208548, "truth_uv": {"spatial": [447.93213277582197, 256.0], "mono": [434.9949397488617, 256.0]}, "class": "cat_meowing"}

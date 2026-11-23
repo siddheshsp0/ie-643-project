@@ -1,0 +1,173 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/home/24b4502/ie643_project/venvs/ie643_project/lib/python3.13/site-packages/torch/functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:3637.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+checkpoint /home/24b4502/ie643_project/github_repo/.claude/worktrees/spatial-audio/runs/s4_v1/last.pt (step 20000)  layers ['layers.1', 'layers.2', 'norm']
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 13064.10it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.layer_norm.weight | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+lm_head.bias              | UNEXPECTED | 
+lm_head.layer_norm.bias   | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+pooler.dense.weight       | MISSING    | 
+pooler.dense.bias         | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Load the specified checkpoint /home/24b4502/ie643_project/venvs/ie643_project/lib/python3.13/site-packages/laion_clap/630k-audioset-best.pt from users.
+Load Checkpoint...
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 6548.43it/s]
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  80%|████████  | 4/5 [00:00<00:00, 26.76it/s]
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 196/196 [00:00<00:00, 13385.28it/s]
+Loading pipeline components...: 100%|██████████| 5/5 [00:00<00:00, 26.53it/s]
+[2/173] 2vUe3LakHAo helicopter: az +1->-3, r 4.0->3.2 m, heard as helicopter
+[3/173] 3Rgjs_ttdxs helicopter: az -1->-1, r 4.0->3.5 m, heard as playing_violin
+[4/173] 4sfJsFE1Mmk helicopter: az -5->-5, r 4.0->3.2 m, heard as helicopter
+[5/173] 5eI4R5Tg-Gs helicopter: az -7->-16, r 4.0->3.3 m, heard as lawn_mowing
+[6/173] 5OGUvwQxWtw helicopter: az -5->-8, r 4.0->3.3 m, heard as chainsawing_trees
+[7/173] 70rljq60zaw helicopter: az -10->-15, r 4.0->3.1 m, heard as helicopter
+[9/173] DhFVH7Dvz8A helicopter: az +4->-0, r 4.0->3.4 m, heard as helicopter
+[10/173] -en-yFsmIO8 helicopter: az -2->-8, r 4.0->3.5 m, heard as lawn_mowing
+[11/173] EzOwXH1MIoI helicopter: az -26->-26, r 4.0->3.4 m, heard as chainsawing_trees
+[12/173] ISrb23zuWcY helicopter: az +13->+4, r 4.0->3.2 m, heard as lawn_mowing
+[13/173] LcwakmQwG40 helicopter: az -7->-12, r 4.0->3.3 m, heard as lawn_mowing
+[14/173] Ph3or5bl_WM helicopter: az +3->+11, r 4.0->3.0 m, heard as race_car
+[16/173] -qymcBqBEN4 helicopter: az +1->-1, r 4.0->3.4 m, heard as helicopter
+[17/173] RuRvTc1MqCA helicopter: az +6->-2, r 4.0->3.1 m, heard as lawn_mowing
+[18/173] SjrwTwBrG_U helicopter: az +2->+12, r 4.0->2.9 m, heard as lawn_mowing
+[19/173] TJyrb2tIeIE helicopter: az +9->+12, r 4.0->3.1 m, heard as helicopter
+[20/173] VhX_ZxojBcg helicopter: az +2->-12, r 4.0->3.4 m, heard as lawn_mowing
+[21/173] XEokIQCZ_Vg helicopter: az +5->+6, r 4.0->3.0 m, heard as chainsawing_trees
+[23/173] 0tRkJ1CppTA mynah_bird_singing: az +6->+6, r 0.5->0.4 m, heard as mynah_bird_singing
+[24/173] 0WL1gKM13mY mynah_bird_singing: az +1->+1, r 0.5->0.5 m, heard as ambulance_siren
+[25/173] 2Yyy4TLH-J4 mynah_bird_singing: az +11->+11, r 0.5->0.5 m, heard as mynah_bird_singing
+[26/173] 64fMq6IOFNg mynah_bird_singing: az +10->+11, r 0.5->0.5 m, heard as mynah_bird_singing
+[27/173] ASgIPoBZfWY mynah_bird_singing: az -1->-1, r 0.5->0.5 m, heard as mynah_bird_singing
+[28/173] b3osEsLC6JA mynah_bird_singing: az +3->+3, r 0.5->0.5 m, heard as mynah_bird_singing
+[30/173] d2gP7PJV4EU mynah_bird_singing: az +11->+11, r 0.5->0.5 m, heard as mynah_bird_singing
+[31/173] -E3eNjI4vEc mynah_bird_singing: az -2->-2, r 0.9->0.9 m, heard as mynah_bird_singing
+[32/173] GKZNjmulsWE mynah_bird_singing: az -6->-7, r 0.9->0.8 m, heard as mynah_bird_singing
+[33/173] GsGgFUfn0fM mynah_bird_singing: az +6->+7, r 0.5->0.5 m, heard as mynah_bird_singing
+[34/173] jCrQuzFfdGM mynah_bird_singing: az +11->+11, r 0.5->0.5 m, heard as mynah_bird_singing
+[35/173] jNj_kRfLwzE mynah_bird_singing: az +7->+7, r 0.5->0.5 m, heard as mynah_bird_singing
+[37/173] r6lXYeXskDA mynah_bird_singing: az -6->-6, r 0.5->0.5 m, heard as mynah_bird_singing
+[38/173] VG-jZq_A1Hc mynah_bird_singing: az -7->-6, r 0.5->0.5 m, heard as mynah_bird_singing
+[39/173] WNG5_IbQOLI mynah_bird_singing: az -0->-1, r 0.5->0.5 m, heard as mynah_bird_singing
+[40/173] -xpc63hW7Wk mynah_bird_singing: az +5->+5, r 0.5->0.5 m, heard as mynah_bird_singing
+[41/173] -BpMHfa2Saw playing_violin: az -10->-4, r 3.5->2.9 m, heard as playing_violin
+[42/173] 4Cc4hviIWts playing_violin: az +8->+6, r 3.3->3.1 m, heard as playing_violin
+[44/173] 6Da7J-2FbmE playing_violin: az -13->-13, r 1.5->1.3 m, heard as playing_violin
+[45/173] 7fyOuEd1Jsw playing_violin: az -10->-4, r 3.5->2.5 m, heard as playing_violin
+[46/173] 8TZcN7vYW8E playing_violin: az +1->+2, r 2.9->2.7 m, heard as playing_violin
+[47/173] 9lxp6rDEUD4 playing_violin: az +14->+14, r 2.7->2.7 m, heard as playing_violin
+[48/173] 9S_EuQ3mxBM playing_violin: az +8->+7, r 4.0->3.1 m, heard as playing_violin
+[49/173] DSl6ZNhg4i0 playing_violin: az -1->+3, r 2.8->2.5 m, heard as playing_violin
+[51/173] oqy-Uw98uAk playing_glockenspiel: az +4->+2, r 0.8->0.7 m, heard as playing_glockenspiel
+[52/173] 1XBz00U_pv0 playing_piano: az +3->+0, r 2.9->2.6 m, heard as playing_tabla
+[53/173] 48KCbqvwin8 playing_piano: az +1->+6, r 3.5->2.6 m, heard as playing_ukulele
+[54/173] NWjG0HZx1rE playing_piano: az +18->+18, r 2.1->2.2 m, heard as playing_violin
+[55/173] -_KYvb4aTZY lions_roaring: az +4->+10, r 3.0->2.9 m, heard as lions_roaring
+[56/173] 7WoR1bTCyj0 lions_roaring: az +6->+5, r 4.0->3.1 m, heard as lions_roaring
+[58/173] nLx1SGjPFOM lions_roaring: az -1->-12, r 4.0->3.4 m, heard as lions_roaring
+[59/173] oa9u35CTyy0 lions_roaring: az -9->-4, r 3.0->2.9 m, heard as lions_roaring
+[60/173] PacYskI7Ewc lions_roaring: az +2->+3, r 1.7->2.3 m, heard as lions_roaring
+[61/173] uWIWnL414Lo lions_roaring: az -0->-2, r 1.8->1.7 m, heard as lions_roaring
+[62/173] yj6lBq3liio lions_roaring: az +3->+4, r 3.0->2.7 m, heard as lions_roaring
+[63/173] _JTW58YuI8M baby_laughter: az -3->-2, r 0.7->0.7 m, heard as baby_laughter
+[65/173] jyAVwXhbR5g baby_laughter: az -7->-7, r 0.8->0.9 m, heard as baby_laughter
+[66/173] 5IU4puYETJ0 male_speech: az +1->+1, r 2.6->2.5 m, heard as male_speech
+[67/173] 7Uv6dXP6h4c male_speech: az -18->-17, r 1.9->1.7 m, heard as male_speech
+[68/173] 7WwkT9fR508 male_speech: az -5->-6, r 2.3->2.1 m, heard as male_speech
+[69/173] -Etzr_L-R1E lawn_mowing: az -18->-18, r 2.1->1.9 m, heard as lawn_mowing
+[70/173] eiX2mJ7LiAs lawn_mowing: az +1->-0, r 2.1->2.3 m, heard as lawn_mowing
+[72/173] Zhwaea-sxIc playing_ukulele: az -11->-11, r 0.7->0.8 m, heard as playing_ukulele
+[73/173] d3jUeM6s9zs playing_tabla: az +16->+14, r 1.5->1.3 m, heard as playing_tabla
+[74/173] dhU-DJSBplM playing_tabla: az -1->-1, r 0.9->0.9 m, heard as playing_tabla
+[75/173] EfzeuQ8cVcM playing_tabla: az -1->-1, r 1.0->0.8 m, heard as playing_tabla
+[76/173] XI7KohOCtx8 playing_tabla: az +6->+8, r 1.1->1.3 m, heard as playing_tabla
+[77/173] GqfnidPagnk driving_buses: az +1->-3, r 4.0->3.5 m, heard as helicopter
+[79/173] O8cw0ihih78 driving_buses: az +20->+23, r 4.0->3.3 m, heard as lawn_mowing
+[80/173] 2eEPiCh9bZo cap_gun_shooting: az +9->+10, r 2.3->2.2 m, heard as cap_gun_shooting
+[81/173] ERSmiGXdHWY cap_gun_shooting: az +11->+11, r 0.8->0.8 m, heard as cap_gun_shooting
+[82/173] FmKXn6BodjE cap_gun_shooting: az +10->+10, r 1.3->1.1 m, heard as cap_gun_shooting
+[83/173] g8Il7SnkD6E cap_gun_shooting: az -8->-7, r 2.5->2.2 m, heard as dog_barking
+[84/173] lVjDHrjLSy8 cap_gun_shooting: az -16->-16, r 2.3->2.4 m, heard as cap_gun_shooting
+[86/173] -eV9hw6kPRU chainsawing_trees: az -1->+0, r 1.4->1.5 m, heard as chainsawing_trees
+[87/173] 2WogzOS_D9Q chainsawing_trees: az +4->+3, r 2.3->2.2 m, heard as chainsawing_trees
+[88/173] 9LBd-au2bh8 chainsawing_trees: az -2->-3, r 1.9->1.8 m, heard as chainsawing_trees
+[89/173] A--jAq0xhVk chainsawing_trees: az +1->-2, r 1.8->1.8 m, heard as chainsawing_trees
+[90/173] AgDxQIamHek chainsawing_trees: az -4->-5, r 0.8->0.8 m, heard as chainsawing_trees
+[91/173] D8QghlF89yc chainsawing_trees: az -2->-2, r 1.6->1.5 m, heard as chainsawing_trees
+[93/173] eZm24b1rKXQ chainsawing_trees: az -4->-6, r 2.6->2.6 m, heard as chainsawing_trees
+[94/173] fiUK67T6LQs chainsawing_trees: az +5->+3, r 2.1->2.0 m, heard as chainsawing_trees
+[95/173] fLzo66H78EQ chainsawing_trees: az -2->-2, r 1.4->1.3 m, heard as chainsawing_trees
+[96/173] fneLVe9pnfA chainsawing_trees: az -10->-10, r 3.6->2.8 m, heard as chainsawing_trees
+[97/173] G2zC8-a0YJg chainsawing_trees: az -4->-3, r 1.6->1.5 m, heard as chainsawing_trees
+[98/173] XJSRthb6Fsw chainsawing_trees: az +3->+4, r 1.9->1.8 m, heard as chainsawing_trees
+[100/173] 0UN02RkbG_U cat_meowing: az -0->-0, r 0.5->0.5 m, heard as cat_meowing
+[101/173] 1bvRkyT2Q5I cat_meowing: az +8->+8, r 0.5->0.5 m, heard as cat_meowing
+[102/173] 0-52H7-ABkM female_singing: az +2->+0, r 3.2->3.0 m, heard as playing_violin
+[103/173] 0MuN1nPMisQ female_singing: az +1->+2, r 1.9->2.0 m, heard as female_singing
+[104/173] 0tUyl-pvE7I female_singing: az -15->-14, r 1.9->2.0 m, heard as playing_piano
+[105/173] 0x7-rRxJhCw female_singing: az +20->+18, r 2.8->2.8 m, heard as playing_violin
+[107/173] 2GuH1UJxQOk female_singing: az +14->+14, r 1.6->1.6 m, heard as female_singing
+[108/173] -2McrNUTKQQ female_singing: az -4->-4, r 1.8->1.6 m, heard as playing_tabla
+[109/173] 4PbYE1BNoo8 female_singing: az +0->+1, r 1.9->1.6 m, heard as playing_piano
+[110/173] 5jI6Hrxo4ZE female_singing: az +6->+5, r 1.7->1.8 m, heard as female_singing
+[111/173] 574NjiOGi5s female_singing: az -4->-5, r 2.5->2.4 m, heard as baby_laughter
+[112/173] 57fjUzulv9c female_singing: az +4->+3, r 2.4->2.3 m, heard as playing_violin
+[114/173] -jOC8Eb8Il8 female_singing: az +1->+0, r 1.6->1.3 m, heard as male_speech
+[115/173] lu8RDB26uPY female_singing: az +20->+23, r 4.0->2.9 m, heard as female_singing
+[116/173] -PN3OIo-oT4 ambulance_siren: az -13->-7, r 4.0->3.1 m, heard as ambulance_siren
+[117/173] 0vC_cm4mv9I ambulance_siren: az -4->-16, r 4.0->3.3 m, heard as ambulance_siren
+[118/173] 1Lf8Fr7huOM ambulance_siren: az +10->+2, r 4.0->3.1 m, heard as ambulance_siren
+[119/173] 5cxMHAETn-E ambulance_siren: az -2->-5, r 4.0->3.1 m, heard as ambulance_siren
+[121/173] 26Zs3imuwEg ambulance_siren: az +11->+5, r 4.0->3.4 m, heard as ambulance_siren
+[122/173] CiIIZHeUiAE ambulance_siren: az +2->+3, r 4.0->3.5 m, heard as ambulance_siren
+[123/173] Fe73sVkCoEQ ambulance_siren: az +1->-5, r 4.0->3.4 m, heard as ambulance_siren
+[124/173] HBzG5X12vNU ambulance_siren: az -9->-7, r 4.0->3.3 m, heard as ambulance_siren
+[125/173] Hte37mQzkKE ambulance_siren: az +3->+8, r 4.0->3.1 m, heard as ambulance_siren
+[126/173] I-TmrVPReVc ambulance_siren: az -6->-0, r 4.0->3.4 m, heard as ambulance_siren
+[128/173] MMw4iZq3_Ec ambulance_siren: az +0->-1, r 4.0->3.3 m, heard as ambulance_siren
+[129/173] NCnxDcaltzo ambulance_siren: az +2->+3, r 4.0->3.4 m, heard as ambulance_siren
+[130/173] Rm-kGUiii40 ambulance_siren: az -10->-15, r 4.0->3.4 m, heard as ambulance_siren
+[131/173] YUp9yrw4tB4 ambulance_siren: az +1->-4, r 4.0->3.0 m, heard as ambulance_siren
+[132/173] YV2wuAimpOQ ambulance_siren: az +3->+11, r 4.0->3.4 m, heard as ambulance_siren
+[133/173] -hqM85LZw7c dog_barking: az +4->+2, r 1.7->1.5 m, heard as dog_barking
+[135/173] hh_DVVgHYzI dog_barking: az +3->+2, r 1.4->1.2 m, heard as dog_barking
+[136/173] h54ILYy07SY dog_barking: az +1->+1, r 0.6->0.6 m, heard as dog_barking
+[137/173] BXhJJ5L7vx8 dog_barking: az +10->+10, r 0.9->0.8 m, heard as dog_barking
+[138/173] BCcdatk468s dog_barking: az +2->+2, r 0.5->0.6 m, heard as dog_barking
+[139/173] ehMLK2EC1n4 dog_barking: az -23->-24, r 0.8->0.9 m, heard as dog_barking
+[140/173] 3nWeAosWK40 dog_barking: az +2->-1, r 2.3->2.2 m, heard as dog_barking
+[142/173] UmktY7QuhZ0 dog_barking: az +1->+1, r 0.6->0.6 m, heard as coyote_howling
+[143/173] TniApw9LVzM dog_barking: az -6->-6, r 1.1->1.1 m, heard as dog_barking
+[144/173] YNmnwxw4yxo dog_barking: az +5->+6, r 0.8->0.7 m, heard as dog_barking
+[145/173] 0bISD6Q8cQs horse_clip-clop: az -5->-5, r 4.0->3.1 m, heard as dog_barking
+[146/173] 2DmbPAlalPI horse_clip-clop: az -10->-14, r 4.0->3.3 m, heard as helicopter
+[147/173] 3jpAt_madtA horse_clip-clop: az +3->+7, r 4.0->3.4 m, heard as helicopter
+[149/173] 4cbh7Rd9Fwk horse_clip-clop: az -6->-6, r 2.1->2.3 m, heard as lawn_mowing
+[150/173] 6GD0dWvfDc4 horse_clip-clop: az -6->-14, r 3.6->3.1 m, heard as helicopter
+[151/173] 50m-w1KXlM0 horse_clip-clop: az +17->+18, r 4.0->3.4 m, heard as helicopter
+[152/173] -GM-ogU1Q4s horse_clip-clop: az -23->-23, r 1.6->1.7 m, heard as horse_clip-clop
+[153/173] H7mPu5mt4zM horse_clip-clop: az -10->-10, r 2.0->1.7 m, heard as horse_clip-clop
+[154/173] HGJgGPcyNAU horse_clip-clop: az -13->-19, r 3.5->2.9 m, heard as horse_clip-clop
+[156/173] -HXwnBVE19E horse_clip-clop: az +1->-3, r 4.0->3.2 m, heard as horse_clip-clop
+[157/173] JpqxMvQVUFk horse_clip-clop: az -4->-5, r 1.9->2.1 m, heard as horse_clip-clop
+[158/173] NH6FgDjkggg horse_clip-clop: az -4->-1, r 3.2->2.7 m, heard as horse_clip-clop
+[159/173] NWrNeK5C2lY horse_clip-clop: az -18->-15, r 4.0->3.5 m, heard as helicopter
+[160/173] BEGgDbKEXMw coyote_howling: az +4->+4, r 0.8->0.8 m, heard as coyote_howling
+[161/173] 2XDoDkWurUo race_car: az +5->+4, r 4.0->3.3 m, heard as race_car
+[163/173] 6MrXwLd80FI race_car: az +13->+11, r 3.4->2.9 m, heard as race_car
+[164/173] 6WhP6XCfgnU race_car: az +7->+2, r 4.0->3.2 m, heard as race_car
+[165/173] 49_BMvgI8c8 race_car: az -13->-18, r 4.0->3.5 m, heard as race_car
+[166/173] AAOcAu6ELFo race_car: az +8->+17, r 4.0->2.9 m, heard as race_car
+[167/173] eAO9uDZeUW0 race_car: az -8->-9, r 4.0->2.9 m, heard as lions_roaring
+[168/173] GCvcNamSLkE race_car: az -1->-1, r 2.8->2.4 m, heard as race_car
+[170/173] HGxVMI_Snp8 race_car: az +2->+5, r 4.0->3.2 m, heard as race_car
+[171/173] J5H0PpwQYBg race_car: az -10->-12, r 4.0->3.4 m, heard as race_car
+[172/173] JQ39VPSbQ2o race_car: az -14->-17, r 4.0->3.2 m, heard as race_car
+[173/173] KTEyF7C8pXQ race_car: az -5->-8, r 4.0->3.2 m, heard as race_car

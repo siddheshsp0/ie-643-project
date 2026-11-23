@@ -1,0 +1,23 @@
+{
+  "az_deg": 67.88814201035031,
+  "el_deg": -4.410386368255639,
+  "diffuseness": 0.5747223712752694,
+  "distance_m": 2.3249990408924717,
+  "yaw_deg": 30.0,
+  "u": 49.837757419148716,
+  "v": 266.1102266763538,
+  "z": 1.414740893259579,
+  "box": [
+    0.0,
+    163.7102266763538,
+    266.24,
+    368.5102266763538
+  ],
+  "visible": true,
+  "occluded": false,
+  "source_class": "dog_barking",
+  "clap_prob": 0.999993085861206,
+  "image": "/home/24b4502/ie643_project/demo/images/sofa.jpg",
+  "foa": "outputs/spatial/dog_left_foa.wav",
+  "placed": null
+}

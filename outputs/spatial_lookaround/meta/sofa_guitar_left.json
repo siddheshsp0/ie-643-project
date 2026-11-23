@@ -1,0 +1,1 @@
+{"scene": "sofa", "sound": "guitar", "side": "left", "az": 65.0, "heard_as": "playing_acoustic_guitar", "yaw_spatial": 30.0, "est_az": 64.71545250297719, "truth_uv": {"spatial": [64.067867224178, 256.0], "mono": [43.960594490814316, 256.0]}, "class": "playing_acoustic_guitar"}
